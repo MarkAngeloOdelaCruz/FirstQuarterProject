@@ -1,0 +1,148 @@
+body {
+  background-color: #e5e5dc;
+  margin: 0;
+}
+
+/*NAV*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #36454f;
+  top: 0;
+  left: 0;
+  right: 0;
+  position:fixed;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+nav li a:hover{
+  background-color: black;
+}
+
+nav .active {
+  background-color: #49545d;
+  color: white;
+}
+
+/*HEADING*/
+
+header {
+  color: white;
+  background:  url(header.png) no-repeat center center;
+  background-size:auto; 
+  text-align: center;
+  height: 400px;
+  width: 1536px;
+}
+
+header h1{
+  display: inline-block;
+  color: white;
+  margin-top: 140px;
+  font-size: 75px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #ef8432;
+}
+
+/*MAIN*/
+
+main {
+  margin:25px;
+  border: double 4px #36454f;
+  padding: 25px;
+}
+
+main h2 {
+  display: inline-block;
+  color: white;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:#36454f;
+}
+
+main p {
+  text-align:justify;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+/*MAIN (ID)*/
+
+#p-definition {
+  width: 600px;
+}
+
+#h2-importance {
+  float:right;
+}
+
+#p-importance {
+  clear: right;
+  text-align:right;
+}
+
+#hr-importance {
+  margin-top: 335px;
+}
+
+#h2-impact {
+  float: left;
+  clear:left;
+  text-align:left;
+}
+
+#p-impact {
+  clear: left;
+}
+
+/*MAIN (Images)*/
+
+#sdg-desc {
+  width: 781px;
+  height: 250px;
+  float:right;
+}
+
+#city-compare {
+  width: 500px;
+  height: 500px;
+  float:left;
+}
+
+#rapid-urban {
+  width: 750px;
+  height: 300px;
+  float: left;
+  clear: right;
+  margin-left: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color:#36454f;
+  margin-bottom:0px;
+  padding:1em;
+}
+
+footer p {
+  color:white;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:5px;
+}
