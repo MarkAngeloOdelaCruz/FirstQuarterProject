@@ -19,6 +19,9 @@ nav ul {
 
 nav li {
   float: left;
+  background-color: #36454f;
+  transition-property: background-color;
+  transition-duration: 2s;
 }
 
 nav li a{
@@ -30,13 +33,15 @@ nav li a{
   font-family:Arial, Helvetica, sans-serif;
 }
 
-nav li a:hover{
+nav li:hover{
   background-color: black;
 }
 
 nav .active {
   background-color: #49545d;
   color: white;
+  transition-property: background-color;
+  transition-duration: 2s;
 }
 
 /*HEADING*/
