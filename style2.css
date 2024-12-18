@@ -86,6 +86,17 @@ main p {
   
 }
 
+.sprite {
+  background: url('treesprite.png') no-repeat -101px -125px;
+  width: 300px;
+  height: 250px;
+  animation: varName 3s steps(6) infinite;
+}
+@keyframes varName{
+  from{background-position-x:0px;}
+  to{background-position-x:-1800px;}
+}
+
 /*MAIN (ID)*/
 
 #p-definition {
@@ -112,7 +123,8 @@ main p {
 }
 
 #p-impact {
-  clear: left;
+  clear:left;
+  width: 800px;
 }
 
 /*MAIN (Images)*/
