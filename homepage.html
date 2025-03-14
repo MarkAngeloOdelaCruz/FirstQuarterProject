@@ -23,8 +23,8 @@
     </header>
 
     <main>
-        <img src="sdg11.png" alt="SDG 11 Logo" id="sdg-logo">
-        <img src="sdg11(2).jpg" alt="I support Goal 11" id="support-sdg">
+        <img src="Images/sdg11.png" alt="SDG 11 Logo" id="sdg-logo">
+        <img src="Images/sdg11(2).jpg" alt="I support Goal 11" id="support-sdg">
 
         <h2>What Is This Website About?</h2>
 
@@ -43,6 +43,84 @@
                 <li>Educate people and push them to spread this information</li>
             </ul>
         </article>
+
+        <hr>
+
+        <div id="SDG-Quiz">
+            <h4>Let's test your knowledge...</h4>
+            <h1>SDG 11 Quiz</h1>
+            <p>Type the letter of your answer in capital letters.</p>
+            <button id="start" onclick="start()">Start Quiz</button>
+    
+            <div id="item1" style="display: none">
+                <p>1. What is the main goal of SDG 11?</p>
+                <ol type="A">
+                    <li>Promote industrialization</li>
+                    <li>Create smart cities only for the wealthy</li>
+                    <li>Make cities and human settlements inclusive, safe, resilient, and sustainable</li>
+                    <li>Reduce the population growth</li>
+                </ol>
+                <input type="text" id="ans1"> 
+                <button type="button" id="but1" onclick="item1()">Continue</button>
+            </div>
+    
+            <div id="item2" style="display: none">
+                <p>2. Which of the following is NOT a key aspect of SDG 11?</p>
+                <ol type="A">
+                    <li>Affordable and sustainable housing</li>
+                    <li>Reducing air pollution</li>
+                    <li>Promoting rural over urban development</li>
+                    <li>Improving public transportation</li>
+                </ol>
+                <input type="text" id="ans2"> 
+                <button type="button" id="but2" onclick="item2()">Continue</button>
+                <button type="button" id="back1" onclick="back1(1)">Return</button>
+            </div>
+    
+            <div id="item3" style="display: none">
+                <p>3. How does investing in renewable energy help achieve SDG 11?</p>
+                <ol type="A">
+                    <li>It reduces greenhouse gas emissions</li>
+                    <li>It makes cities less crowded</li>
+                    <li>It increases housing prices</li>
+                    <li>It promotes waste growth</li>
+                </ol>
+                <input type="text" id="ans3"> 
+                <button type="button" id="but3" onclick="item3()">Continue</button>
+                <button type="button" id="back2" onclick="back2(2)">Return</button>
+            </div>
+    
+            <div id="item4" style="display: none">
+                <p>4. Why is urban planning important for sustainable cities?</p>
+                <ol type="A">
+                    <li>It prevents people from moving to cities</li>
+                    <li>It limits access to resources for low-income groups</li>
+                    <li>It increases land prices and benefits only businesses</li>
+                    <li>It helps control traffic and pollution</li>
+                </ol>
+                <input type="text" id="ans4"> 
+                <button type="button" id="but4" onclick="item4()">Continue</button>
+                <button type="button" id="back3" onclick="back3(3)">Return</button>
+            </div>
+    
+            <div id="item5" style="display: none">
+                <p>5. How can individuals contribute to achieving SDG 11?</p>
+                <ol type="A">
+                    <li>Ignore urban development policies</li>
+                    <li>Use public transport instead of private cars</li>
+                    <li>Avoid participating in community projects</li>
+                    <li>Move away from urban areas</li>
+                </ol>
+                <input type="text" id="ans5"> 
+                <button type="button" id="but5" onclick="item5()">Submit</button>
+                <button type="button" id="back4" onclick="back4(4)">Return</button>
+            </div>
+    
+            <p id="result"></p>
+            <button type="button" id="restart" style="display: none" onclick="location.reload()">Restart Quiz</button>
+    
+            <script src="script.js"></script>
+        </div>
     </main>
 
     <footer>
