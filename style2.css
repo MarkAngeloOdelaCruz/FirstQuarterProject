@@ -48,7 +48,7 @@ nav .active {
 
 header {
   color: white;
-  background:  url(header.png) no-repeat center center;
+  background:  url(Images/header.png) no-repeat center center;
   background-size:auto; 
   text-align: center;
   height: 400px;
@@ -87,7 +87,7 @@ main p {
 }
 
 .sprite {
-  background: url('treesprite.png') no-repeat -101px -125px;
+  background: url('Images/treesprite.png') no-repeat -101px -125px;
   width: 300px;
   height: 250px;
   animation: varName 3s steps(6) infinite;
