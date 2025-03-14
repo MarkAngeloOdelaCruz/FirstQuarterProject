@@ -48,7 +48,7 @@ nav .active {
 
 header {
   color: white;
-  background:  url(header.png) no-repeat center center;
+  background:  url(Images/header.png) no-repeat center center;
   background-size:auto; 
   text-align: center;
   height: 400px;
@@ -102,6 +102,14 @@ ul li {
   height: 450px;
   float:right;
 }
+
+hr {
+  margin-top: 150px;
+}
+
+/*QUIZ*/
+
+
 
 /*FOOTER*/
 
