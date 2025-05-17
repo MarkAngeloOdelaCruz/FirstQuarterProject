@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Urban EcoSolutions</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="problems.html">Problems</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="application.html">Application</a></li>
+
+                <li id="signupNav"><a href="proj_signup_delaCruz.html">Sign Up</a></li>
+                <li id="profileNav"><a href="proj_profile_delaCruz.html" class="active">Profile</a></li>
+            </ul>
+        </nav>
+
+        <h1>Urban EcoSolutions</h1>
+    </header>
+
+    <main>
+        <section class="profile">
+            <img class="pfp" src="Images/profile.png" alt="Profile Picture">
+            <h2>Profile</h2>
+            <p><strong>First Name:</strong> <span id="profileFirstName"></span></p>
+            <p><strong>Last Name:</strong> <span id="profileLastName"></span></p>
+            <p><strong>Email Address:</strong> <span id="profileEmail"></span></p>
+            <p><strong>Sex:</strong> <span id="profileSex"></span></p>
+            <p><strong>Why I Support:</strong> <span id="profileSupportReason"></span></p>
+            <button id="logOut" onclick="window.location.href='proj_signup_delaCruz.html'">Log Out</button>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('profileFirstName').textContent = localStorage.getItem('firstName');
+        document.getElementById('profileLastName').textContent = localStorage.getItem('lastName');
+        document.getElementById('profileEmail').textContent = localStorage.getItem('email');
+        document.getElementById('profileSex').textContent = localStorage.getItem('sex');
+        document.getElementById('profileSupportReason').textContent = localStorage.getItem('supportReason');
+    </script>
+
+    <footer>
+        <p>Mark Angelo O. de la Cruz</p>
+        <p>9 - Barium</p>
+        <p>Computer Science 3 Project</p>
+    </footer>
+</body>
+
+</html>

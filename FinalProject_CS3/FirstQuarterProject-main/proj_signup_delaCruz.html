@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Urban EcoSolutions</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="problems.html">Problems</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="application.html">Application</a></li>
+
+                <li id="signupNav"><a href="proj_signup_delaCruz.html" class="active">Sign Up</a></li>
+                <li id="profileNav"><a href="proj_profile_delaCruz.html">Profile</a></li>
+            </ul>
+        </nav>
+
+        <h1>Urban EcoSolutions</h1>
+    </header>
+
+    <main>
+        <h2>Sign Up Here!</h2>
+        <h4>This website promotes SDG 11: Sustainable Cities and Communities. The website aims to raise awareness about current problems 
+            related to this SDG, and propose possible solutions and ways to reduce the negative effects of this issue.
+        </h4>
+
+        <hr><br>
+
+        <form id="signupForm">
+            <h1>Sign Up</h1>
+        <label>First Name <span class="required-star">*</span>
+        <input type="text" name="firstName" /></label>
+        <span class="error" id="errorFirstName">required</span>
+
+        <label>Last Name <span class="required-star">*</span>
+        <input type="text" name="lastName" /></label>
+        <span class="error" id="errorLastName">required</span>
+
+        <label>Sex <span class="required-star">*</span><br />
+        <input type="radio" name="sex" value="Male" /> Male
+        <input type="radio" name="sex" value="Female" /> Female
+        <input type="radio" name="sex" value="Prefer not to say" /> Prefer not to say
+        </label>
+        <span class="error" id="errorSex">required</span>
+
+        <label>Email Address <span class="required-star">*</span>
+        <input type="email" name="email" /></label>
+        <span class="error" id="errorEmail">required</span>
+
+        <label>Password <span class="required-star">*</span>
+        <input type="password" name="password" /></label>
+        <span class="error" id="errorPassword">required</span>
+
+        <label>Contact Number</span>
+        <input type="text" name="contact" /></label>
+
+        <label>Why you’re supporting our campaign <span class="required-star">*</span><br />
+        <textarea name="supportReason"></textarea>
+        </label>
+        <span class="error" id="errorSupportReason">required</span>
+
+        <br><br><button type="submit">Sign Up</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Mark Angelo O. de la Cruz</p>
+        <p>9 - Barium</p>
+        <p>Computer Science 3 Project</p>
+    </footer>
+</body>
+
+</html>
